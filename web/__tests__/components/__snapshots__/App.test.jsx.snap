@@ -1,0 +1,472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div>
+          <DatePicker
+            allowSameDay={false}
+            dateFormat="MM/dd/yyyy"
+            dateFormatCalendar="LLLL yyyy"
+            disabled={false}
+            disabledKeyboardNavigation={false}
+            dropdownMode="scroll"
+            inline={true}
+            inlineFocusSelectedMonth={false}
+            monthsShown={1}
+            nextMonthButtonLabel="Next month"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClickOutside={[Function]}
+            onFocus={[Function]}
+            onInputClick={[Function]}
+            onInputError={[Function]}
+            onKeyDown={[Function]}
+            onMonthChange={[Function]}
+            onSelect={[Function]}
+            onYearChange={[Function]}
+            preventOpenOnFocus={false}
+            previousMonthButtonLabel="Previous Month"
+            readOnly={false}
+            renderDayContents={[Function]}
+            shouldCloseOnSelect={true}
+            showMonthYearPicker={false}
+            showTimeInput={false}
+            showTimeSelect={false}
+            startDate={2019-08-24T20:59:08.542Z}
+            strictParsing={false}
+            timeCaption="Time"
+            timeInputLabel="Time"
+            timeIntervals={30}
+            withPortal={false}
+          />
+        </div>,
+        <div>
+          <Expenses
+            expenses={Array []}
+            expensesForm={
+              Object {
+                "amount": "",
+                "description": "",
+                "errors": Array [],
+              }
+            }
+            handleRegisterExpenses={[Function]}
+            onExpensesFieldChanged={[Function]}
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <DatePicker
+            allowSameDay={false}
+            dateFormat="MM/dd/yyyy"
+            dateFormatCalendar="LLLL yyyy"
+            disabled={false}
+            disabledKeyboardNavigation={false}
+            dropdownMode="scroll"
+            inline={true}
+            inlineFocusSelectedMonth={false}
+            monthsShown={1}
+            nextMonthButtonLabel="Next month"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClickOutside={[Function]}
+            onFocus={[Function]}
+            onInputClick={[Function]}
+            onInputError={[Function]}
+            onKeyDown={[Function]}
+            onMonthChange={[Function]}
+            onSelect={[Function]}
+            onYearChange={[Function]}
+            preventOpenOnFocus={false}
+            previousMonthButtonLabel="Previous Month"
+            readOnly={false}
+            renderDayContents={[Function]}
+            shouldCloseOnSelect={true}
+            showMonthYearPicker={false}
+            showTimeInput={false}
+            showTimeSelect={false}
+            startDate={2019-08-24T20:59:08.542Z}
+            strictParsing={false}
+            timeCaption="Time"
+            timeInputLabel="Time"
+            timeIntervals={30}
+            withPortal={false}
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "allowSameDay": false,
+            "dateFormat": "MM/dd/yyyy",
+            "dateFormatCalendar": "LLLL yyyy",
+            "disabled": false,
+            "disabledKeyboardNavigation": false,
+            "dropdownMode": "scroll",
+            "inline": true,
+            "inlineFocusSelectedMonth": false,
+            "monthsShown": 1,
+            "nextMonthButtonLabel": "Next month",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onClickOutside": [Function],
+            "onFocus": [Function],
+            "onInputClick": [Function],
+            "onInputError": [Function],
+            "onKeyDown": [Function],
+            "onMonthChange": [Function],
+            "onSelect": [Function],
+            "onYearChange": [Function],
+            "preventOpenOnFocus": false,
+            "previousMonthButtonLabel": "Previous Month",
+            "readOnly": false,
+            "renderDayContents": [Function],
+            "shouldCloseOnSelect": true,
+            "showMonthYearPicker": false,
+            "showTimeInput": false,
+            "showTimeSelect": false,
+            "startDate": 2019-08-24T20:59:08.542Z,
+            "strictParsing": false,
+            "timeCaption": "Time",
+            "timeInputLabel": "Time",
+            "timeIntervals": 30,
+            "withPortal": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Expenses
+            expenses={Array []}
+            expensesForm={
+              Object {
+                "amount": "",
+                "description": "",
+                "errors": Array [],
+              }
+            }
+            handleRegisterExpenses={[Function]}
+            onExpensesFieldChanged={[Function]}
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "expenses": Array [],
+            "expensesForm": Object {
+              "amount": "",
+              "description": "",
+              "errors": Array [],
+            },
+            "handleRegisterExpenses": [Function],
+            "onExpensesFieldChanged": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": true,
+        "rules": Array [
+          "
+  display: flex;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div>
+            <DatePicker
+              allowSameDay={false}
+              dateFormat="MM/dd/yyyy"
+              dateFormatCalendar="LLLL yyyy"
+              disabled={false}
+              disabledKeyboardNavigation={false}
+              dropdownMode="scroll"
+              inline={true}
+              inlineFocusSelectedMonth={false}
+              monthsShown={1}
+              nextMonthButtonLabel="Next month"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClickOutside={[Function]}
+              onFocus={[Function]}
+              onInputClick={[Function]}
+              onInputError={[Function]}
+              onKeyDown={[Function]}
+              onMonthChange={[Function]}
+              onSelect={[Function]}
+              onYearChange={[Function]}
+              preventOpenOnFocus={false}
+              previousMonthButtonLabel="Previous Month"
+              readOnly={false}
+              renderDayContents={[Function]}
+              shouldCloseOnSelect={true}
+              showMonthYearPicker={false}
+              showTimeInput={false}
+              showTimeSelect={false}
+              startDate={2019-08-24T20:59:08.542Z}
+              strictParsing={false}
+              timeCaption="Time"
+              timeInputLabel="Time"
+              timeIntervals={30}
+              withPortal={false}
+            />
+          </div>,
+          <div>
+            <Expenses
+              expenses={Array []}
+              expensesForm={
+                Object {
+                  "amount": "",
+                  "description": "",
+                  "errors": Array [],
+                }
+              }
+              handleRegisterExpenses={[Function]}
+              onExpensesFieldChanged={[Function]}
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <DatePicker
+              allowSameDay={false}
+              dateFormat="MM/dd/yyyy"
+              dateFormatCalendar="LLLL yyyy"
+              disabled={false}
+              disabledKeyboardNavigation={false}
+              dropdownMode="scroll"
+              inline={true}
+              inlineFocusSelectedMonth={false}
+              monthsShown={1}
+              nextMonthButtonLabel="Next month"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClickOutside={[Function]}
+              onFocus={[Function]}
+              onInputClick={[Function]}
+              onInputError={[Function]}
+              onKeyDown={[Function]}
+              onMonthChange={[Function]}
+              onSelect={[Function]}
+              onYearChange={[Function]}
+              preventOpenOnFocus={false}
+              previousMonthButtonLabel="Previous Month"
+              readOnly={false}
+              renderDayContents={[Function]}
+              shouldCloseOnSelect={true}
+              showMonthYearPicker={false}
+              showTimeInput={false}
+              showTimeSelect={false}
+              startDate={2019-08-24T20:59:08.542Z}
+              strictParsing={false}
+              timeCaption="Time"
+              timeInputLabel="Time"
+              timeIntervals={30}
+              withPortal={false}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "allowSameDay": false,
+              "dateFormat": "MM/dd/yyyy",
+              "dateFormatCalendar": "LLLL yyyy",
+              "disabled": false,
+              "disabledKeyboardNavigation": false,
+              "dropdownMode": "scroll",
+              "inline": true,
+              "inlineFocusSelectedMonth": false,
+              "monthsShown": 1,
+              "nextMonthButtonLabel": "Next month",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onClickOutside": [Function],
+              "onFocus": [Function],
+              "onInputClick": [Function],
+              "onInputError": [Function],
+              "onKeyDown": [Function],
+              "onMonthChange": [Function],
+              "onSelect": [Function],
+              "onYearChange": [Function],
+              "preventOpenOnFocus": false,
+              "previousMonthButtonLabel": "Previous Month",
+              "readOnly": false,
+              "renderDayContents": [Function],
+              "shouldCloseOnSelect": true,
+              "showMonthYearPicker": false,
+              "showTimeInput": false,
+              "showTimeSelect": false,
+              "startDate": 2019-08-24T20:59:08.542Z,
+              "strictParsing": false,
+              "timeCaption": "Time",
+              "timeInputLabel": "Time",
+              "timeIntervals": 30,
+              "withPortal": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Expenses
+              expenses={Array []}
+              expensesForm={
+                Object {
+                  "amount": "",
+                  "description": "",
+                  "errors": Array [],
+                }
+              }
+              handleRegisterExpenses={[Function]}
+              onExpensesFieldChanged={[Function]}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "expenses": Array [],
+              "expensesForm": Object {
+                "amount": "",
+                "description": "",
+                "errors": Array [],
+              },
+              "handleRegisterExpenses": [Function],
+              "onExpensesFieldChanged": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+  display: flex;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
