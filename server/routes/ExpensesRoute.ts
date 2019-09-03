@@ -1,8 +1,12 @@
 import express from 'express';
+import ExpensesController from '../controllers/ExpensesController';
 
 const app = express();
+const expensesController = new ExpensesController();
+const { getExpenses, addExpenses } = expensesController;
 
-app.route('/').get((req, res) => res.json({ hello: 'world' }));
-app.route('/').post((req, res) => res.json({ hello: 'world' }));
+app.route('/')
+  .get(getExpenses.bind(expensesController))
+  .post(addExpenses.bind(ExpensesController));
 
 export default app;
