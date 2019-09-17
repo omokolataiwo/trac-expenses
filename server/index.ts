@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-app.use('/', ApplicationRoute);
+app.use('/api', ApplicationRoute);
 
 const port = process.env.PORT || 3000;
 
